@@ -16,7 +16,7 @@ Sitio web de presentación profesional para Adriana Bordón, maquilladora. Permi
     ├── index.html
     ├── styles.css
     ├── script.js
-    └── images/
+    └── Images/
         ├── portada.jpg
         ├── adriana.jpg
         ├── trabajo1.jpg

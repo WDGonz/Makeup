@@ -69,7 +69,7 @@ nav a:hover { color: var(--gold); }
   padding: 80px 10%;
   background:
     linear-gradient(90deg, rgba(0,0,0,.72), rgba(0,0,0,.05)),
-    url('images/Designer\ \(1\).png') center/cover;
+    url('Images/Designer\ \(1\).png') center/cover;
   color: white;
 }
 
