@@ -54,4 +54,3 @@ No se especifica una licencia.
 
 Technologies That I used👨🏻‍💻
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github,vscode)]
-![My Skills](https://avatars.githubusercontent.com/u/48276018?s=48&v=4)
