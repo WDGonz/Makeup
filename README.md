@@ -51,3 +51,7 @@ Repite el patrón para las tarjetas `trabajo2` a `trabajo6`. La portada y la fot
 ## Licencia
 
 No se especifica una licencia. 
+
+Technologies That I Know👨🏻‍💻
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github,vscode)](https://skillicons.dev)
+![My Skills](https://avatars.githubusercontent.com/u/48276018?s=48&v=4)
