@@ -39,36 +39,6 @@ filterButtons.forEach(button => {
   });
 });
 
-// FORMULARIO DE CONTACTO
-
-document.getElementById('contactForm').addEventListener('submit',
-  function(event) {
-
-    event.preventDefault();
-
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
-    const tipo = document.getElementById('tipo').value;
-    const mensaje = document.getElementById('mensaje').value;
-
-    // REEMPLAZAR POR EL EMAIL PROFESIONAL REAL
-    const destinatario = 'abmakeup.tucuman@gmail.com';
-
-    const asunto = encodeURIComponent('Consulta desde la web - ' + tipo);
-
-    const cuerpo = encodeURIComponent(
-      'Nombre: ' + nombre +
-      '\nEmail: ' + email +
-      '\nMotivo: ' + tipo +
-      '\nMensaje: ' + mensaje
-    );
-
-    window.location.href =
-      'mailto:' + destinatario +
-      '?subject=' + asunto +
-      '&body=' + cuerpo;
-  }
-);
 // Carruseles individuales del portfolio
 document.querySelectorAll('.gallery-item[data-images]').forEach(card => {
   const paths = card.dataset.images.split(',').map(path => path.trim());
