@@ -48,6 +48,12 @@ Repite el patrón para las tarjetas `trabajo2` a `trabajo6`. La portada y la fot
 - Redes sociales: actualiza los enlaces de Instagram y ##### en el pie de página de `index.html`.
 
 
+## Formulario de contacto en Netlify
+
+El formulario usa Netlify Forms (data-netlify="true") y redirige a gracias.html después de un envío exitoso. Tras publicar o volver a desplegar el sitio, confirma que Netlify detectó el formulario contacto en **Forms** y configura una notificación por correo en la configuración del sitio si quieres recibir un aviso de cada envío. El registro de envíos también queda disponible en el panel de Netlify. El formulario no abre el programa de correo del visitante.
+
+
+
 ## Licencia
 
 No se especifica una licencia. 
