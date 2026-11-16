@@ -301,25 +301,27 @@
       </p>
     </div>
 
-    <form id="contactForm">
+    <form id="contactForm" name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
+      <input type="hidden" name="form-name" value="contacto">
+      <p class="visually-hidden"><label>No completar este campo: <input name="bot-field"></label></p>
 
-      <input type="text" id="nombre"
+      <input type="text" id="nombre" name="nombre" autocomplete="name"
         placeholder="Nombre y apellido" required>
 
-      <input type="email" id="email"
+      <input type="email" id="email" name="email" autocomplete="email"
         placeholder="Correo electrónico" required>
 
-      <select id="tipo" required>
+      <select id="tipo" name="tipo" required>
         <option value="">Motivo de contacto</option>
-        <option>Consulta por servicios</option>
-        <option>Solicitud de presupuesto</option>
-        <option>Propuesta laboral</option>
-        <option>Producción audiovisual</option>
-        <option>Colaboración profesional</option>
-        <option>Otro</option>
+        <option value="Consulta por servicios">Consulta por servicios</option>
+        <option value="Solicitud de presupuesto">Solicitud de presupuesto</option>
+        <option value="Propuesta laboral">Propuesta laboral</option>
+        <option value="Producción audiovisual">Producción audiovisual</option>
+        <option value="Colaboración profesional">Colaboración profesional</option>
+        <option value="Otro">Otro</option>
       </select>
 
-      <textarea id="mensaje"
+      <textarea id="mensaje" name="mensaje"
         placeholder="Contame sobre tu consulta o proyecto..."
         required></textarea>
 
@@ -336,10 +338,10 @@
   <div class="logo">ADRIANA BORDÓN</div>
 
   <div class="social">
-    <a href="https://www.instagram.com/abmakeup.tucuman/"
+    <a href="https://www.instagram.com/"
        target="_blank" rel="noopener">INSTAGRAM</a>
-    <a href="mailto:abmakeup.tucuman@gmail.com"
-       target="_blank" rel="noopener">EMAIL</a>
+    <a href="https://www.whatsapp.com/"
+       target="_blank" rel="noopener">WHATSAPP</a>
   </div>
 
   <p>© 2026 Adriana Bordón · Makeup Artist</p>
